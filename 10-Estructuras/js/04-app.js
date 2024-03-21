@@ -11,16 +11,16 @@ if(rol === 'ADMIN') {
 
 // El problema del else if es que si agregas múltiples llegan a ser complejos de leer...
 
-let rol = 'ADMIN';
+// let rol = 'ADMIN';
 
-if(rol === 'ADMIN') {
-    console.log('El Usuario puede editar, eliminar y ver toda la información');
-} else if(rol === 'EDITOR' ) {
-    console.log('El usuario puede editar todos los registros');
-} else if(rol === 'AUTOR') { 
-    console.log('El usuario solo puede registrar usuarios');
-} else {
-    console.log('El Usuario es visitante, solo puede ver la información');
-}
+// if(rol === 'ADMIN') {
+//     console.log('El Usuario puede editar, eliminar y ver toda la información');
+// } else if(rol === 'EDITOR' ) {
+//     console.log('El usuario puede editar todos los registros');
+// } else if(rol === 'AUTOR') { 
+//     console.log('El usuario solo puede registrar usuarios');
+// } else {
+//     console.log('El Usuario es visitante, solo puede ver la información');
+// }
 
 // Para ello llegan a ser más útiles los Switch, veamos que son y después volvemos hacia más ejemplos de if else
